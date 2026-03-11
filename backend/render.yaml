@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: post-voting-api
+    runtime: docker
+    rootDir: backend
+    autoDeploy: true
